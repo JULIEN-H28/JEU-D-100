@@ -1,3 +1,14 @@
+@font-family: 'Roboto', sans-serif;
+
+body {
+    background-color: LightSteelBlue;
+    text-align: center;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: red;
+    font-size: 50px;
+  }
 ul {
     list-style-type: none;
 }
