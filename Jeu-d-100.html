@@ -1,29 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="jeu des 100 points"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <link rel="stylesheet" href="assets/css/Jeu-d-100.css"/>
-    <title>Le JEU DES 100 POINTS</title>
+    <title>JEU DES 100 POINTS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
- 
-    
-</head>
-<body>
+  </head>
+
+  <body>
     <h1>JEU DES 100 POINTS</h1>
+
+    <div class="player-0-panel active">
+      <div class="player-name" id="name-0">Joueur 1</div>
+      <div class="player-score" id="score-0">0</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Score</div>
+        <div class="player-current-score" id="current-0">11</div>
+      </div>
+    </div>
+  
+    <div class="player-1-panel">
+      <div class="player-name" id="name-1">Joueur 2</div>
+      <div class="player-score" id="score-1">0</div>
+      <div class="player-current-box">
+        <div class="player-current-label">Score</div>
+        <div class="player-current-score" id="current-1">0</div>
+      </div>
+    </div>
+
     <select name="des" id="des">
-        <option value="4">d4</option>
+      <option value="6"></option>
     </select>
+  
     <button id="btnLancer">Lancer</button>
     <p id="message"></p>
     <div id="listResultats"></div>
-</body>
+  
+    <button class="btn-new"><i class="ion-ios-plus-outline"></i>Nouvelle Partie</button>
+    <button class="btn-hold"><i class="ion-ios-download-outline"></i>Prise</button>
+  </body>
     <script src="assets/js/Jeu-d-100.js"></script>
 </html>
