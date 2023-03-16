@@ -2,16 +2,16 @@ let btnLancer = document.getElementById("btnLancer");
 let listResultats = document.getElementById("listResultats");
 let message = document.getElementById("message");
 let ul = document.createElement("ul");
-let de = document.getElementById("des");
+let de = "6"
 
 let resultat = "";
 
 btnLancer.addEventListener("click",lancer);
 
 function lancer(){
-    resultat = Math.floor((Math.random() * de.value) + 1);
+    resultat = Math.floor((Math.random() * de) + 1);
     console.log(resultat);
-    console.log(de.value);
+    console.log(de);
     if (resultat == 1) {
         message.innerHTML = " Pas de chance ! Ahahaha !";
     }

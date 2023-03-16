@@ -1,22 +1,52 @@
 @font-family: 'Roboto', sans-serif;
 
-body {
-    background-color: LightSteelBlue;
-    text-align: center;
-  }
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    color: red;
-    font-size: 50px;
-  }
+ /* ajoute une bordure à tous les élements pour le visualiser dans le navigateur /
+
+ul {     
+  
+    list-style-type: none; / retire la puce de chaque li /     
+    padding: 0; / supprime les 40px de padding-left par défaut de la balise ul */ 
+
+
+* { 
+  border: 1px purple dotted;
+} 
 ul {
-    list-style-type: none;
+  list-style-type: none;
+  padding: 0; 
+}
+body {
+  background-color: LightSteelBlue;
+  text-align: center;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: red;
+  font-size: 50px;
+  }
+section > div {
+  display: flex;
+  justify-content: center;
+}
+div.card {
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
 }
 ul li {
-    display: inline-block;
-    padding-left: 10px;
-    vertical-align: middle;
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: middle;
 }
 img {
-    width: 50px;
+  width: 50px;
 }
+
+// ju
+

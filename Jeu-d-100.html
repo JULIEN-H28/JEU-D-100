@@ -17,28 +17,25 @@
   <body>
     <h1>JEU DES 100 POINTS</h1>
 
-    <div class="player-0-panel active">
-      <div class="player-name" id="name-0">Joueur 1</div>
-      <div class="player-score" id="score-0">0</div>
-      <div class="player-current-box">
-        <div class="player-current-label">Score</div>
-        <div class="player-current-score" id="current-0">11</div>
-      </div>
-    </div>
-  
-    <div class="player-1-panel">
-      <div class="player-name" id="name-1">Joueur 2</div>
-      <div class="player-score" id="score-1">0</div>
-      <div class="player-current-box">
-        <div class="player-current-label">Score</div>
-        <div class="player-current-score" id="current-1">0</div>
-      </div>
-    </div>
+    <div id='message' class="alert" role="alert"></div>
+    <main class="card" id='Game'>
+      <section class="py-4 py-xl-5">
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                <div class="card-body">
+              <h5 id='scoreOne' class="card-title">Joueur 1 - Score : 0</h5>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 id='scoreTwo' class="card-title">Joueur 2 - Score : 0</h5>
+            </div>
+          </div>
+        </div>
+        </section>
+    </main>
+    
 
-    <select name="des" id="des">
-      <option value="6"></option>
-    </select>
-  
     <button id="btnLancer">Lancer</button>
     <p id="message"></p>
     <div id="listResultats"></div>
