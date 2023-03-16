@@ -6,6 +6,7 @@ let de = "6"
 
 let resultat = "";
 
+
 btnLancer.addEventListener("click",lancer);
 
 function lancer(){
@@ -14,6 +15,7 @@ function lancer(){
     console.log(de);
     if (resultat == 1) {
         message.innerHTML = " Pas de chance ! Ahahaha !";
+        message.style.color = "white";
     }
     else {
         message.innerHTML = "";
@@ -68,4 +70,6 @@ function lancer(){
 
     
     ul.insertBefore(newItem, ul.childNodes[0]);
+
+
 }

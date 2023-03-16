@@ -16,37 +16,53 @@ ul {
   padding: 0; 
 }
 body {
-  background-color: LightSteelBlue;
   text-align: center;
+  background: url(../img/fond.jpg);
+  background-size: cover;
+  background-position-y:-230px;
+  background-repeat: no-repeat;
+  background-color: black;
 }
 h1 {
   font-family: 'Roboto', sans-serif;
-  color: red;
-  font-size: 50px;
+  color: rgb(236, 11, 135);
+  font-size: 70px;
+  text-shadow: rgb(250, 250, 248) 0px 0 100px;
   }
 section > div {
   display: flex;
   justify-content: center;
+  gap: 80px;
 }
 div.card {
   background-color: aliceblue;
   border: 1px solid black;
   border-radius: 20px;
+}
+section > h2 {
+  background-size: cover;
   text-align: center;
   vertical-align: middle;
   margin: 10px;
 }
-ul {
-  list-style-type: none;
-}
 ul li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 20px;
   vertical-align: middle;
 }
 img {
   width: 50px;
 }
+main {
+  margin-top: 100px;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 50px;
+  
+}
 
-// ju
+
+
 
